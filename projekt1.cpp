@@ -32,6 +32,7 @@ int main() {
 			cin >> x;
 			if(czyPierwsza(x)){
 				cout << "Liczba jest pierwsza." << endl;
+				cout << "Uznajmy, że dodaje to jeszcze raz"<<endl;
 			} else cout << "Liczba nie jest pierwsza." << endl;
 		}
     } while(wyjscie != 0);
